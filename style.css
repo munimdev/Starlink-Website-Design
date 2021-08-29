@@ -1,0 +1,460 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    background-image: url('earth\ background.jpg');
+    background-repeat: no-repeat;
+    background-size: 615px 100px;
+    border-bottom: 1px solid white;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+h1 {
+   color: white;
+   letter-spacing: 1.5px;
+   font-family:Roboto,Helvetica,Arial,Verdana,sans-serif;
+   font-size: 21px;
+   display: inline;
+   margin-top: 35px;
+   font-weight: 700;
+}
+.info{
+    width: 80%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 21.2px;
+    color: white;
+    background-image: linear-gradient( #3a4ed5, #3acfd5),
+                    linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%),
+                    linear-gradient(to bottom, #3acfd5 0%,#3a4ed5 100%),
+                    linear-gradient(to left,#3acfd5 0%,#3a4ed5 100%),
+                    linear-gradient(to bottom right, black, black);
+    background-repeat: no-repeat;
+    background-size: 4px 100%, 100% 4px, 4px 100%, 100% 4px, calc(100% - 8px) calc(100% - 8px);
+    background-position: left bottom, left bottom, right top, right top, 4px 4px;
+
+}
+.text-body{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+}
+#main{
+    line-height: 1.35;
+}
+.text p{
+    text-align: justify;
+}
+.text h2{
+    text-decoration: underline;
+}
+.first-para{
+    text-indent: 2cm;
+}
+.text h2{
+    font-weight: 300;
+    font-family:Roboto,Helvetica,Arial,Verdana,sans-serif;
+}
+.text{
+    background-color: black;
+}
+#about{
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+#about:after{
+    border-bottom: 2px solid #2196F3;
+    content:"";
+    width:9.2%;
+    display:block;
+    margin:0 auto;
+    padding-top: -20px;
+    margin-left: 0px;
+}
+
+#details{
+    margin-top: -202px;
+    margin-left: 150px;
+    font-size: 17px;
+    font-weight: 525;
+}
+
+#details p:after{
+    border-bottom: 2px solid #2196F3;
+    content:"";
+    width:27.5%;
+    display:block;
+    margin:0 auto;
+    padding-top: -20px;
+    margin-left: 0px;
+}
+
+#author{
+    height: 155px;
+    width: 124px;
+    margin-top: 5px;
+    border-radius: 25px;
+    border: solid;
+    border-color: #2196F3;
+}
+#author:hover{
+    opacity: 0.5;
+}
+
+.list ol{
+    line-height: 1.5;
+}
+#abstract p{
+    font-size: 19px;
+}
+
+#abstract-heading{
+    font-size: 26px;
+}
+#abstract{
+    font-weight: 300;
+    background-image: url('Starlink-Logo-1.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 1200px 600px;
+}
+
+.list, .list:hover, .list:active, .list:visited, .list a {
+     color: white; 
+     font-size: 19px;
+     line-height: 1.8;
+    }
+#outline a, #outline:hover, #outline:active, #outline:visited{
+    color: white;
+    float: right;
+}
+#subs h2{
+    color: white;
+}
+
+#outline p{
+    font-size: 19px;
+}
+
+#outline h2{
+    font-size: 26px;
+}
+
+#phase-list{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 100;
+    width: 70%;
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+th{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: #0c578a;
+    font-weight: bold;
+}
+th, td{
+    padding: 10px;
+    width: auto;
+}
+td{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+#videobox{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -50px;
+    z-index: 0;
+}
+#myVideo {
+    float: right;
+    margin-top: 162px;
+    height: 33%;
+    width: 33%;
+}
+
+#video-info{
+  position: absolute;
+  font-size: 10px;
+  margin-left: 78.5%;
+  margin-top: 31%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 10%;
+  padding: 0px;
+}
+
+#watsl{
+    background: url('starlink-sat.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 160%;
+    background-position: 100% -30%;
+    background-position-x: 0px;
+}
+
+#slaunch{
+    float: right;
+    padding: 20px;
+    margin-top: -20px;
+    height: 33%;
+    width: 33%;
+    padding-bottom: 57px;
+}
+
+#slaunch-info{
+    position: absolute;
+    text-align: center;
+    margin-left: 59%;
+    margin-top: 220px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 10%;
+    padding: 10px;
+}
+#contbox{
+    width: 100%; height: 100%; z-index: -1;
+    position: relative;
+    top: -20px;
+    z-index: 0;
+}
+#scont{
+    float: right;
+    padding: 20px;
+    margin-top: 45px;
+    height: 25%;
+    width: 25%;
+    padding-bottom: 50px;
+}
+
+#scont-info{
+    position: absolute;
+    text-align: center;
+    margin-left: 73%;
+    margin-top: 27%;
+    color: #f1f1f1;
+    width: 15%;
+    padding: 0px;
+}
+
+#savail{
+    float: right;
+    padding: 20px;
+    margin-top: -20px;
+    height: 27%;
+    width: 27%;
+    padding-bottom: 50px;
+}
+
+#savail-info{
+    position: absolute;
+    text-align: center;
+    margin-left: 62%;
+    margin-top: 210px;
+    color: #f1f1f1;
+    width: 10%;
+    padding: 0px;
+}
+
+#sanim {
+    margin-left: 26px;
+    margin-top: 2px;
+    height: 100px;
+    width: 240px;
+    z-index: 1;
+}
+#myform{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+#myform h2{
+    height: 10px;
+}
+#leavereply{
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+#myform p{
+    margin-top: 2px;
+    font-size: 12px;
+    color: #cfc6c6;
+    font-weight: 100;
+}
+.required{
+    color: red;
+    font-size: .692em;
+    position: relative;
+    top: -4px;
+}
+#myform{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('space\ bg.jfif');
+    background-size: contain;
+}
+input[type=text], #textarea{
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+} 
+#country{
+    width: 42.2%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.button {
+    background-color:#2196F3;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+.button:hover{
+    background-color: #45a2ee;
+}
+
+footer{
+    background-image: url('space\ bg.jfif');
+    background-size: contain;
+    margin-top: 40px;
+    border-top: 1px solid white;
+    height: 340px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#maps{
+    float: right;
+    margin-right: 7.2%;
+    margin-top: 1.5%;
+}
+
+.bottom{
+    color: white;
+}
+
+.bottom-body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#socials{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+}
+
+#mycontact{
+    float: left;
+    margin-left: 10%;
+    font-weight: 400;
+    height: 100px;
+}
+#mycontact h2, #myform h2{
+    font-weight: 400;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa{
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background: black;
+  color: white;
+}
+
+#visit{
+  line-height: 1%;
+  float: left;
+  margin-left: 20%;
+  margin-top: 1%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#visit-head{
+    font-weight: 400;
+}
+
+.visit-text{
+    color: #9b9b9b;
+}
+
+#copyright{
+    color: #9b9b9b;
+    font-size: 14px;
+    float: bottom;
+    width: 18%;
+    margin-top: 21%;
+}
+.contact-head{
+    height: 25%;
+}
+/*Reference for progress bar: https://www.w3schools.com/howto/howto_js_scroll_indicator.asp*/
+.scroll-header {
+    position: fixed;
+    margin-left: -8px;
+    padding: 0px;
+    top: 0;
+    z-index: 1;
+    width: 102%;
+    background-color: #f1f1f1;
+}
+  
+.progress-container {
+width: 100%;
+height: 4px;
+background:transparent;
+margin-left: -20px;
+}
+
+.progress-bar {
+height: 4px;
+background: #2196F3;
+width: 100%;
+}
